@@ -29,3 +29,8 @@ go.work.sum
 
 chatlog.exe# Added by goreleaser init:
 dist/
+
+# Local build artifacts and Python cache from export helper scripts.
+/chatlog
+script/__pycache__/
+*.pyc
